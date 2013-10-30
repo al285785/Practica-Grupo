@@ -1,5 +1,5 @@
 import DecimalBinario
-
+#NANANANANANA BATMAN
 numero = int((raw_input('Introduce el numero decimal a convvertir a binario: '))
 print(DecimalBinario.Decimal2Binario(numero)) 
 

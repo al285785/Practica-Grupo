@@ -29,6 +29,7 @@ def crearLista():
     return lista
 
 # -----------------------------------------------------
+#Esta función suma la lista de impares
 # -----------------------------------------------------
 def sumarListaImpares(lista):
     sum=0

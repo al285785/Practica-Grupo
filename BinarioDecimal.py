@@ -5,6 +5,7 @@ def Decimal2Binario(decimal):
         decimal = decimal // 2
     return str(decimal) + binario
 
+#Esta función sirve para convertir un número binario a decimal:
 def Binario2Decimal(binario):
     n=len(binario)
     valor=0

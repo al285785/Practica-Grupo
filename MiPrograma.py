@@ -15,7 +15,7 @@ def sumarListaPares(lista):
 # -----------------------------------------------------
 def imprimirLista(lista,nombre):
     for i in range(0,len(lista)):
-        print nombre + "[" + str(i) + "]=" + str(lista[i])
+        print(nombre + "[" + str(i) + "]=" + str(lista[i]))
 
 # -----------------------------------------------------
 # -----------------------------------------------------
@@ -30,7 +30,16 @@ def crearLista():
 
 # -----------------------------------------------------
 # -----------------------------------------------------
+def sumarListaImpares(lista):
+    sum=0
+    for i in range(0,len(lista)):
+        if lista[i] % 2 == 0 :
+            sum=sum+lista[i]
+    return sum
+
+# -----------------------------------------------------
+# -----------------------------------------------------
 A = crearLista()
 imprimirLista(A,"A")
-print "Suma = " + str(sumarListaPares(A))
+print("Suma = " + str(sumarListaPares(A)))
 

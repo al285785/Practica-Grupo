@@ -3,6 +3,7 @@ import random
  
 # -----------------------------------------------------
 # -----------------------------------------------------
+# La función sumarListaPares se utiliza para sumar un conjunto de números pares sucesivos:
 def sumarListaPares(lista):
     sum=0
     for i in range(0,len(lista)):
